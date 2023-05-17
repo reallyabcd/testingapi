@@ -8,7 +8,7 @@ SECRET_KEY = 'django-insecure-k-(7759x#in@g_4$19ug2^ws+a-xi!d6ue3)b_#x64o2ie)^l^
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['*'] #set the allowed host here, make sure its https over http
+ALLOWED_HOSTS = ['45.148.31.39'] #set the allowed host here, make sure its https over http
 
 # Application definition
 
@@ -124,6 +124,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
 
 #other configs
-CSRF_COOKIE_SECURE = True
-SESSION_COOKIE_SECURE = True
-SECURE_SSL_REDIRECT = True
+CSRF_COOKIE_SECURE = False
+SESSION_COOKIE_SECURE = False
+SECURE_SSL_REDIRECT = False
